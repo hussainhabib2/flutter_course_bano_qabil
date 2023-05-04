@@ -10,11 +10,11 @@ class WallpaperApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Wallpaper App",
+      title: "ListView",
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: HomeWidget(),
+      home: const HomeWidget(),
     );
   }
 }
@@ -26,10 +26,9 @@ class HomeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Wallpaper app"),
+        title: const Text("ListView App"),
       ),
-      body: PageView(
-        scrollDirection: Axis.horizontal,
+      body: ListView(
         children: [
           Image.network(
             "https://images.unsplash.com/photo-1682832847143-4696ff5dc87a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
