@@ -1,7 +1,7 @@
 
-# Lesson #2
+# Lesson #3
 
-Learning about Listviews, Image.network and Scaffold basic widgets with the help of this wallpaper app example
+Building very basic UI for calculator, with an objective to teach about GridView, Column and Containers
 
 ![Logo](https://i.ibb.co/ZLdQy4b/image.png)
 
