@@ -12,3 +12,6 @@ Students and any other flutter beginner with basic programming knowledge can ben
 <a>Lesson #1</a>
 
 <a href="https://github.com/hussainhabib2/bano_qabil_flutter/tree/main/Lesson%20%232">Lesson #2</a>
+
+<a href="https://github.com/hussainhabib2/bano_qabil_flutter/tree/main/Lesson%20%233">Lesson #3</a>
+
