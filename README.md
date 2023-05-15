@@ -5,7 +5,7 @@ This repository is a rich collection of all the dart and flutter tutorials, has 
 
 Students and any other flutter beginner with basic programming knowledge can benefit from this repository
 
-<img src="https://i.ibb.co/26qDDnY/logo.png" height="200px">
+<img src="logo.png" height="200px">
 
 # Lessons 
 
