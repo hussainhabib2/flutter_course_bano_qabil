@@ -43,12 +43,14 @@ class _SecondScreenState extends State<SecondScreen> {
                 },
               ),
             ),
-            Checkbox(
+            CheckboxListTile(
               value: checkBoxOpen,
               onChanged: (_) {
                 checkBoxOpen = !checkBoxOpen;
                 setState(() {});
               },
+              controlAffinity: ListTileControlAffinity.leading,
+              title: Text('Do you agree to terms and conditions?'),
             ),
             Container(
               child: Center(
