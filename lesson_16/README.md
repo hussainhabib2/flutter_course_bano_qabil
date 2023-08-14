@@ -1,16 +1,6 @@
-# lesson_16
+# Lesson #16
 
-A new Flutter project.
+Learning about Device Preview, changing app icon using this artile and appicon.co
+https://hussainhabibullah.medium.com/change-flutter-app-launcher-icon-59c31bcd7554
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Logo](lesson16output.png)
