@@ -4,7 +4,7 @@ import 'package:hive_flutter/adapters.dart';
 
 Future<void> main() async {
   await Hive.initFlutter(); // full app container
-  var box = await Hive.openBox('localStorage'); // local storage
+  await Hive.openBox('localStorage'); // local storage
   runApp(const MyApp());
 }
 
@@ -102,7 +102,6 @@ class _TodoAppHomeScreenState extends State<TodoAppHomeScreen> {
               itemCount: todos.length,
               itemBuilder: (_, index) {
                 return MyCheckboxListTile(todos[index], () async {
-                  print('hello');
                   todos.removeAt(index);
                   var box = await Hive.openBox('localStorage'); // local storage
                   box.put('mytodos', todos);
@@ -148,8 +147,8 @@ class _MyCheckboxListTileState extends State<MyCheckboxListTile> {
       title: Text(
         widget.text,
         style: checkBoxIsOn == true
-            ? TextStyle(decoration: TextDecoration.lineThrough)
-            : TextStyle(),
+            ? const TextStyle(decoration: TextDecoration.lineThrough)
+            : const TextStyle(),
       ),
     );
   }
