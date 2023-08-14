@@ -10,16 +10,16 @@ class SecondScreen extends StatefulWidget {
 }
 
 class _SecondScreenState extends State<SecondScreen> {
-  String curentText = "";
+  String currentText = "";
   List<String> text2 = ["Welcome", "to", "my", "app", "Welcome to my app"];
   int index = 0;
 
   @override
   void initState() {
-    curentText = text2[index];
+    currentText = text2[index];
     Timer.periodic(const Duration(seconds: 2), (timer) {
       index = index + 1;
-      curentText = text2[index];
+      currentText = text2[index];
       setState(() {
 
       });
@@ -35,7 +35,7 @@ class _SecondScreenState extends State<SecondScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(curentText),
+        child: Text(currentText),
       ),
     );
   }
