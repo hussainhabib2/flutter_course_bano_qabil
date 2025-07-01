@@ -9,8 +9,6 @@ Students and any other flutter beginner with basic programming knowledge can ben
 
 # Lessons 
 
-<a href="https://github.com/hussainhabib2/bano_qabil_flutter/tree/main/lesson_1">Lesson #1</a>
-
 <a href="https://github.com/hussainhabib2/bano_qabil_flutter/tree/main/lesson_2">Lesson #2</a>
 
 <a href="https://github.com/hussainhabib2/bano_qabil_flutter/tree/main/lesson_3">Lesson #3</a>
